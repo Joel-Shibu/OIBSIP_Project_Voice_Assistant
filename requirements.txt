@@ -1,0 +1,5 @@
+speechrecognition
+gtts
+pyttsx3
+datetime
+pyaudio
