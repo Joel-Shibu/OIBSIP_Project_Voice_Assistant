@@ -3,3 +3,11 @@ gtts
 pyttsx3
 datetime
 pyaudio
+transformers
+spacy
+schedule
+openai
+flask
+fastapi
+requests
+python-dotenv
