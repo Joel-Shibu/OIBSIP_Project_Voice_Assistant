@@ -29,7 +29,7 @@ A professional, voice-controlled assistant built with Python, featuring advanced
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/voice-assistant.git
+   git https://github.com/Joel-Shibu/OIBSIP_Project_Voice_Assistant
    cd OIBSIP_Task1
    ```
 2. **Install dependencies:**
