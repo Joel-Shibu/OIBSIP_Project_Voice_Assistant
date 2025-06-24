@@ -17,6 +17,70 @@ A professional, voice-controlled assistant built with Python, featuring advanced
 
 ![Voice Assistant Demo](demo.gif)
 
+## Setup Instructions
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
+- Git (for version control)
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Joel-Shibu/OIBSIP_Project_Voice_Assistant
+cd OIBSIP_Project_Voice_Assistant
+```
+
+### 2. Set up the virtual environment
+```bash
+# Windows
+python -m venv ml-env
+ml-env\Scripts\activate
+
+# macOS/Linux
+python3 -m venv ml-env
+source ml-env/bin/activate
+```
+
+### 3. Install dependencies
+```bash
+# Install base requirements
+pip install -r requirements.txt
+
+# Install additional ML dependencies
+pip install torch torchvision torchaudio
+python -m spacy download en_core_web_sm
+```
+
+### 4. Set up environment variables
+- Copy `.env.example` to `.env`
+- Fill in your API keys in the `.env` file
+
+### 5. Gmail API Setup
+1. Go to [Google Cloud Console](https://console.cloud.google.com/)
+2. Create a new project and enable Gmail API
+3. Create OAuth 2.0 credentials
+4. Download the credentials and save as `credentials.json` in the project root
+
+## Machine Learning Environment
+
+This project uses the following ML libraries:
+- **PyTorch**: For deep learning components
+- **spaCy**: For natural language processing
+- **Transformers**: For advanced NLP tasks
+
+### Additional ML Setup
+After activating your virtual environment, run:
+```bash
+# Install PyTorch with CUDA support (if you have an NVIDIA GPU)
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Or for CPU-only version
+# pip3 install torch torchvision torchaudio
+
+# Install spaCy language model
+python -m spacy download en_core_web_sm
+```
+
 ## Getting Started
 
 ### Prerequisites
@@ -98,9 +162,6 @@ voice-assistant/
 
 Contributions are welcome! Please open issues or submit pull requests for improvements or new features.
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Acknowledgements
 - [OpenWeatherMap](https://openweathermap.org/)
@@ -108,3 +169,6 @@ This project is licensed under the MIT License.
 - [OpenAI](https://openai.com/)
 - [Google Cloud Platform](https://cloud.google.com/)
 - [PyAudio](https://people.csail.mit.edu/hubert/pyaudio/)
+- [PyTorch](https://pytorch.org/)
+- [spaCy](https://spacy.io/)
+- [Hugging Face Transformers](https://huggingface.co/transformers/)
