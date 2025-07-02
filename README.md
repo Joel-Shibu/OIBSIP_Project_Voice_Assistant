@@ -23,8 +23,8 @@ A professional, voice-controlled assistant built with Python, featuring advanced
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Joel-Shibu/OIBSIP_Project_Voice_Assistant
-cd OIBSIP_Project_Voice_Assistant
+git clone https://github.com/Joel-Shibu/Voice_Assistant
+cd Voice_Assistant
 ```
 
 ### 2. Set up the virtual environment
@@ -160,12 +160,3 @@ voice-assistant/
 Contributions are welcome! Please open issues or submit pull requests for improvements or new features.
 
 
-## Acknowledgements
-- [OpenWeatherMap](https://openweathermap.org/)
-- [NewsAPI](https://newsapi.org/)
-- [OpenAI](https://openai.com/)
-- [Google Cloud Platform](https://cloud.google.com/)
-- [PyAudio](https://people.csail.mit.edu/hubert/pyaudio/)
-- [PyTorch](https://pytorch.org/)
-- [spaCy](https://spacy.io/)
-- [Hugging Face Transformers](https://huggingface.co/transformers/)
