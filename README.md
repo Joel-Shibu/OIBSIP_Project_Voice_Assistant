@@ -13,9 +13,6 @@ A professional, voice-controlled assistant built with Python, featuring advanced
 - **Web Search:** Perform Google searches directly from your voice commands.
 - **Text-to-Speech:** All responses are spoken back to you using text-to-speech.
 
-## Demo
-
-![Voice Assistant Demo](demo.gif)
 
 ## Setup Instructions
 
